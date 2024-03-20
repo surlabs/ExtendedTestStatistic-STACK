@@ -1,0 +1,16 @@
+//
+// Copyright (c) 2017 Institut fuer Lern-Innovation, Friedrich-Alexander-Universitaet Erlangen-Nuernberg, GPLv3, see LICENSE
+//
+// Italian Language File for the Extended Test Statistics Plugin
+//
+
+<!-- language file start -->
+qst_stack_title_long#:#Elenco delle risposte
+qst_stack_title_short#:#STACK
+qst_stack_prt#:#PRT
+qst_stack_node#:#Nodo
+qst_stack_model_response#:#Nota di Risposta
+qst_stack_no_answer#:#[nessuna risposta]
+qst_stack_feedback_errors#:#Maxima Feedback
+qst_stack_partial#:#Punti Parziali
+qst_stack_frequency#:#Frequenza
