@@ -38,7 +38,7 @@ execute:
 ```bash
 git clone https://github.com/surlabs/ExtendedTestStatistic-STACK.git ./StackEvaluation
 cd StackEvaluation
-git checkout ilias8
+git checkout ilias7
 ```
 
 The evaluation is automatically recognized by the ExtendedTestStatistics plugin and shown in its plugin
