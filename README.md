@@ -16,6 +16,8 @@ This is an add-on to the ExtendedTestStatistics for ILIAS to provide a detailed 
 Installation
 ------------
 
+**Manual**
+
 When you download the add-on as ZIP file from GitHub, please rename the extracted directory to *StackEvaluation*
 (remove the branch suffix, e.g. -master).
 
@@ -23,6 +25,21 @@ Copy the StackEvaluation directory to your ILIAS installation at the followin pa
 (create subdirectories, if neccessary): 
 
 `Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/ExtendedTestStatistics/addons`
+
+**Git**
+
+At the followin path on your ILIAS installation 
+(create subdirectories, if neccessary): 
+
+`Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/ExtendedTestStatistics/addons`
+
+execute:
+
+```bash
+git clone https://github.com/surlabs/ExtendedTestStatistic-STACK.git ./StackEvaluation
+cd StackEvaluation
+git checkout ilias8
+```
 
 The evaluation is automatically recognized by the ExtendedTestStatistics plugin and shown in its plugin
 administration. Choose here if it should be available to platform administrators or all users.
